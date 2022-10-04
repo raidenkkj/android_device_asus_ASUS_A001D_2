@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=ASUS_A001D_2
+DEVICE=A001D
 VENDOR=asus
 
 # Load extract_utils and do some sanity checks
