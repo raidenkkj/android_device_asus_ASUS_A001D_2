@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from ASUS_A001D_2 device
-$(call inherit-product, device/asus/ASUS_A001D_2/device.mk)
+# Inherit from A001D device
+$(call inherit-product, device/asus/A001D/device.mk)
 
-PRODUCT_DEVICE := ASUS_A001D_2
+PRODUCT_DEVICE := A001D
 PRODUCT_NAME := omni_ASUS_A001D_2
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_A001D
