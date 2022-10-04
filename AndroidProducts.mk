@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_ASUS_A001D_2.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ASUS_A001D_2-user \
-    omni_ASUS_A001D_2-userdebug \
-    omni_ASUS_A001D_2-eng
+    omni_A001D-user \
+    omni_A001D-userdebug \
+    omni_A001D-eng
